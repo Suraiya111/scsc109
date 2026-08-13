@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #f6eab2;
+        }
+
+        h1 {
+            color: #d78fc3;
+        }
+        h2{
+            color: darkviolet;
+        }
+
+        details {
+            border: 1px solid #CCCCCC;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        img {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            background: #d33535;
+            color: white;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #27AE60;
+        }
+    summary{
+            color: chartreuse;
+        }
+        p{
+            color: darkslategrey;
+        }
+                
+    </style>
+
+    <head>
+
+    <body>
+        <h1>Hello</h1>
+        <h2>Hello33</h1>
+            <p>Suraiya</p>
+            <details>
+                <summary>Click to expand</summary>
+                <p>cat here</p>
+            </details>
+            <img src="images.jpeg" alt="A cute cat" width="300">
+            <button id="myBtn">Click me</button>
+            <script>
+                document.getElementById("myBtn")
+                    .addEventListener("click", function () {
+                        alert("Hello, you clicked!");
+                    });
+            </script>
+
+
+    </body>
+
+</html>
